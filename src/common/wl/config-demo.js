@@ -1,0 +1,10 @@
+export const SOCKET_ENDPOINT = 'https://cryptoex.test.naxtrader.com:9082'
+export const REST_ENDPOINT = 'https://cryptoex.test.naxtrader.com:9081'
+export const SYMBOL_DEFAULT = 'ETHBTC'
+export const COMPANY_NAME = 'Crypto Exchange'
+export const SUPPORT_EMAIL = 'support@naxtrader.com'
+export const CHART_TIMEFRAMES = ['1', '5', '15', '30', '60', '240', '1440']
+export const SPOT_URL = 'https://crypto.naxtrader.com/spot'
+export const MARGIN_URL = 'https://crypto.naxtrader.com/margin'
+export const SEPARATE_CABINET = false
+export const SEPARATE_LOGIN = false

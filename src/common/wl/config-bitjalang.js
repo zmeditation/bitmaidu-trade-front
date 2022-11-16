@@ -1,0 +1,10 @@
+export const SOCKET_ENDPOINT = 'https://a51.exchange:9082'
+export const REST_ENDPOINT = 'https://a51.exchange:9081'
+export const SYMBOL_DEFAULT = 'ETHBTC'
+export const COMPANY_NAME = 'BitMaido'
+export const SUPPORT_EMAIL = 'support@bitmaido.com'
+export const CHART_TIMEFRAMES = ['1', '5', '15', '30', '60', '240', '1440']
+export const SPOT_URL = 'https://a51.exchange/spot'
+export const MARGIN_URL = 'https://a51.exchange/margin'
+export const SEPARATE_CABINET = true
+export const SEPARATE_LOGIN = 'https://a51.exchange/signin.html'

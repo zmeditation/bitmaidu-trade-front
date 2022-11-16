@@ -1,0 +1,45 @@
+:root.theme-light {
+    --background: #d2d2d2;
+    --background-dark: #e3e3e3;
+    --font: #111111;
+    --brand: #007bff;
+    --green: #409789;
+    --red: #bd7064;
+    --green-bright: #00ff00;
+    --red-bright: #ff0000;
+    --primary-button: #007bff;
+    --secondary-button: #41464b;
+    --even: #e3e3e3;
+    --odd: #d4d4d4
+}
+
+:root.theme-dark {
+    --background: #2d2d2d;
+    --background-dark: #1c1c1c;
+    --font: #eeeeee;
+    --brand: #007bff;
+    --green: #409789;
+    --red: #bd7064;
+    --green-bright: #00ff00;
+    --red-bright: #ff0000;
+    --primary-button: #007bff;
+    --secondary-button: #6c757d;
+    --even: #1c1c1c;
+    --odd: #202020
+}
+
+body {
+    background-color: var(--background-dark) !important;
+}
+
+.chart-page, html.theme-dark .chart-page, html.theme-light .chart-page {
+    background-color: var(--background-dark) !important;
+}
+
+.layout__area--top div:not(.js-button-text) {
+    background-color: var(--background-dark) !important;
+}
+
+.js-market-status {
+    display: none;
+}
